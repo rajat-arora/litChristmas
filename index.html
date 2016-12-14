@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Make it Lit  XMAS 🎅🎄</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style type="text/css">
+        /*Simple reset*/
+* {margin: 0; padding: 0;}
+
+body {
+	/*You can use any kind of background here.*/
+	background: #6b92b9;
+}
+        .ass{
+
+            background-color: aqua;
+            padding: 0;
+            
+        }
+        .ass2{
+             position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+        }
+        .well h2{
+            text-align: center;
+        }
+        #rules{
+            margin: 20;
+        }
+        #click{
+            background-color: tomato;
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            padding: 20;  
+        }
+canvas {
+	display: block;
+        }
+    
+    </style>    
+    
+</head>
+    
+
+<body>
+    <div class="container ass2">
+        <div class="ass col-lg-6 col-lg-offset-3" >
+            <div class="pull-center" id="rules">
+               <h2>Make it Lit  XMAS 🎅🎄</h2> 
+                <h3>Everytime you load this page,  challenge you get below is what you're going to be gifting to your freinds, bae, prof, etc...! Keep refreshing until you get a good one, or click on the blue and very pretty refresh button to get a new challenge to send to your freinds! 🎲</h3>
+            </div>
+            <div  id="click">
+                <h1>🔥The Challenge🔥 <button type="submit" onclick="itsLit()" class="btn btn-primary">
+  <i class="glyphicon glyphicon-repeat"></i>
+</button></h1>
+                <h2 id="name"></h2>
+                <h4 id="desc"></h4>
+            </div>
+        </div>
+
+    </div>
+    
+    <canvas id="canvas"></canvas>
+    <script src="js/snow.js"></script>
+    <script src="script.js"></script>
+    <script>
+        itsLit()
+    </script>
+</body>
+</html>
