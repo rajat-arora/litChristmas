@@ -24,7 +24,7 @@ body {
             
         }
         .ass2{
-             position: relative;
+             position: absolute;
   top: 50%;
   transform: translateY(-50%);
         }
@@ -46,6 +46,9 @@ canvas {
 	display: block;
         }
     
+        #info{
+            color: white;
+        }
     </style>    
     
 </head>
@@ -59,12 +62,14 @@ canvas {
                 <h3>Everytime you load this page,  challenge you get below is what you're going to be gifting to your freinds, bae, prof, etc...! Keep refreshing until you get a good one, or click on the blue and very pretty refresh button to get a new challenge to send to your freinds! 🎲</h3>
             </div>
             <div  id="click">
+                <div id="info">
                 <h1>🔥The Challenge🔥 <button type="submit" onclick="itsLit()" class="btn btn-primary">
   <i class="glyphicon glyphicon-repeat"></i>
 </button></h1>
                 <h2 id="name"></h2>
                 <h4 id="desc"></h4>
             </div>
+                </div>
         </div>
 
     </div>
